@@ -1,0 +1,28 @@
+@use "../variables.scss" as *;
+
+.author {
+    text-align: center;
+
+    figure {
+        background: #F6F6F6;
+        padding-top: 2.5rem;
+
+        img {
+            max-width: 11rem;
+            margin: 0 auto;
+        }
+    }
+
+    article {
+        background-color: $secondary;
+        padding: .5rem 2rem;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+    }
+    p {
+        color: $footerColor;
+    }
+}

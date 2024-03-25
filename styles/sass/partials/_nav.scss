@@ -1,0 +1,37 @@
+@use "./variables.scss" as *;
+.navMenu {
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: $secondary;
+    width: 0;
+    transition: .4s;
+    z-index: 10;
+    &:target {
+        width: 50vw;
+        box-shadow: 0 0 0 10000px rgba(0, 0, 0, .50);
+    }
+
+    .navMenuClose {
+        position: relative;
+        top: .6rem;
+        left: .6rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 75%;
+    }
+
+    li {
+        padding: .8rem;
+    }
+}
+
+.activePage a {
+    color: $primary;
+    pointer-events: none;
+}

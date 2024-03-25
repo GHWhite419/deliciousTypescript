@@ -1,0 +1,61 @@
+@use "./variables.scss" as *;
+
+header {
+    height: 100vh;
+    background-size: cover;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            margin: 0;
+            padding: 1rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .navMenuToggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 1rem;
+        }
+
+        li {
+            position: relative;
+
+            span {
+                position: absolute;
+                background-color: $primary;
+                color: $secondary;
+                border-radius: 100%;
+                padding: .1rem .4rem;
+                font-size: .8rem;
+                font-family: $headingFont;
+                bottom: 0.2rem;
+                left: 1rem;
+            }
+        }
+    }
+}
+
+.indexHeader {
+    background-image: url('../assets/home-1.jpeg');
+    background-position: -34rem;
+}
+
+.blogHeader {
+    background-image: url('../assets/blog-1.jpeg');
+    background-position: -27rem;
+}
+
+.contactHeader {
+    background-image: url('../assets/contact-1.jpeg');
+    background-position: -53rem;
+}
+
+.navBar {
+    display: none;
+}

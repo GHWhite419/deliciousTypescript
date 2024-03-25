@@ -1,0 +1,23 @@
+To-do
+
+Aria-label instead of
+
+Write up quick presentation following format
+
+IF TIME ALLOWS - Refactor CSS
+	Font mixins
+	Input mixin
+	Button mixin; refactor for:
+		Index
+		Blog
+		Contact
+		Footer?
+	Fix nesting issues
+
+Grey out nav buttons that don't have content (everything but "Blog" & "Contact")
+
+Javascript features (using Typescript)
+	Hamburger menu
+	Pop-up modal
+	Image carousel
+	Error handling for form submission

@@ -1,0 +1,61 @@
+@use "../variables.scss" as *;
+
+.recipes {
+    img {
+        max-height: 14rem;
+    }
+    h2,
+    p {
+        text-align: center;
+    }
+
+    button {
+        @include bodyStyle;
+        background-color: $primary;
+        color: $secondary;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 auto;
+        border-style: none;
+        font-size: .6rem;
+        font-weight: 700;
+        margin: 1.5rem auto;
+        padding: .4rem 2.5rem;
+    }
+
+    article:last-child {
+        background-color: $secondary;
+    }
+
+    ul {
+        padding-bottom: 1rem;
+        margin-bottom: 0;
+
+        li {
+            .recipeCategory {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h3 {
+                    padding-right: 1rem;
+                    text-transform: uppercase;
+                }
+
+                i {
+                    font-size: 1.5rem;
+                }
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 900px) {
+
+
+}
