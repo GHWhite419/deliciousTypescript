@@ -260,7 +260,9 @@ hr {
   border: 2px solid;
 }
 
-button:active, button:hover, button:focus {
+button:active,
+button:hover,
+button:focus {
   -webkit-filter: brightness(1.1);
           filter: brightness(1.1);
 }
@@ -301,20 +303,31 @@ p {
   color: #999999;
 }
 
-a {
+header li,
+header a {
   font-family: "Raleway", sans-serif;
   color: #2E2E2E;
   font-weight: 700;
 }
-a:active, a:hover {
+header li:active, header li:hover,
+header a:active,
+header a:hover {
   color: #64A604;
 }
-a:focus {
+header li:focus-visible,
+header a:focus-visible {
   color: #64A604;
   outline: none;
 }
+header .navDisabled,
+header .navDisabled:active,
+header .navDisabled:hover,
+header .navDisabled:focus {
+  color: #999999;
+}
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
 
@@ -359,7 +372,7 @@ input:focus, textarea:focus {
   padding: 0.8rem;
 }
 
-.activePage a {
+.activePage {
   color: #64A604;
   pointer-events: none;
 }

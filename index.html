@@ -1,279 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Delicious - Home</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="indexHeader">
-        <div class="wrapper">
-            <h1>Delicious</h1>
-            <!-- Mobile / Small screen nav -->
-            <!-- Opens nav menu -->
-            <a href="#navMenu" id="navMenuToggle" class="navMenuToggle">
-                <span class="sr-only">Open navigation menu</span>
-                <i class="fa-solid fa-bars fa-2xl" aria-hidden="true"></i>
-            </a>
-            <!-- Start of nav menu -->
-            <nav id="navMenu" class="navMenu">
-                <!-- Closes nav menu -->
-                <a href="#navMenuToggle" id="navMenuClose" class="navMenuClose">
-                    <span class="sr-only">Close navigation menu</span>
-                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
-                </a>
-                <!-- Site links -->
-                <h2 id="navHeading" class="sr-only">Site navigation</h2>
-                <ul>
-                    <li class="activePage"><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Recipes</a></li>
-                    <li><a href="">Nutrition</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <li>
-                        <a href="">
-                            <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
-                            <span class="sr-only">Shopping cart</span>
-                        </a>
-                        <span aria-hidden="true">2</span>
-                        <span class="sr-only">2 items in shopping cart</span>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <span class="sr-only">Search</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- PC / Large screen nav -->
-            <nav class="navBar">
-                <h2 id="navHeading" class="sr-only">Site navigation</h2>
-                <ul>
-                    <li class="activePage"><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Recipes</a></li>
-                    <li><a href="">Nutrition</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <li>
-                        <a href="">
-                            <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
-                            <span class="sr-only">Shopping cart</span>
-                        </a>
-                        <span aria-hidden="true">2</span>
-                        <span class="sr-only">2 items in shopping cart</span>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <span class="sr-only">Search</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div class="wrapper">
+        <h1>Delicious</h1>
+        <!-- Mobile / Small screen nav -->
+        <!-- Opens nav menu -->
+        <a href="#navMenu" id="navMenuToggle" class="navMenuToggle">
+          <span class="sr-only">Open navigation menu</span>
+          <i class="fa-solid fa-bars fa-2xl" aria-hidden="true"></i>
+        </a>
+        <!-- Start of nav menu -->
+        <nav id="navMenu" class="navMenu">
+          <!-- Closes nav menu -->
+          <a href="#navMenuToggle" id="navMenuClose" class="navMenuClose">
+            <span class="sr-only">Close navigation menu</span>
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </a>
+          <!-- Site links -->
+          <h2 id="navHeading" class="sr-only">Site navigation</h2>
+          <ul>
+            <li class="activePage">Home</li>
+            <li class="navDisabled">About</li>
+            <li class="navDisabled">Recipes</li>
+            <li class="navDisabled">Nutrition</li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li class="navDisabled">Shop</li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li class="navDisabled">
+              <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+              <span class="sr-only">Shopping cart</span>
+              <span aria-hidden="true">2</span>
+              <span class="sr-only">2 items in shopping cart</span>
+            </li>
+            <li class="navDisabled">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span class="sr-only">Search</span>
+            </li>
+          </ul>
+        </nav>
+        <!-- PC / Large screen nav -->
+        <nav class="navBar">
+          <h2 id="navHeading" class="sr-only">Site navigation</h2>
+           <ul>
+            <li class="activePage">Home</li>
+            <li class="navDisabled">About</li>
+            <li class="navDisabled">Recipes</li>
+            <li class="navDisabled">Nutrition</li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li class="navDisabled">Shop</li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li class="navDisabled">
+              <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+              <span class="sr-only">Shopping cart</span>
+              <span aria-hidden="true">2</span>
+              <span class="sr-only">2 items in shopping cart</span>
+            </li>
+            <li class="navDisabled">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span class="sr-only">Search</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section class="recipes">
-            <article>
-                <figure>
-                    <img src="assets/home-2.jpeg"
-                        alt="Fresh lettuce inside a bowl with tiny pieces placed aroud the outside.">
-                </figure>
-                <div class="wrapper">
-                    <h2>Most popular recipes</h2>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur nemo et at iste
-                        aperiam ratione eveniet recusandae, error qui! Eum alias facere modi quo nulla necessitatibus,
-                        iure hic iusto.</p>
-                    <button>View recipes</button>
-                </div>
-            </article>
-            <article>
-                <figure>
-                    <img src="assets/home-3.jpeg" alt="A rolled up steak burrito next to some chopped limes.">
-                </figure>
-                <div class="wrapper">
-                    <ul>
-                        <li>
-                            <div class="recipeCategory">
-                                <h3>Vegetarian</h3>
-                                <i class="fa-solid fa-lemon fa-fw" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, quas cupiditate ratione
-                                esse ipsam est deleniti laboriosam quia necessitatibus.</p>
-                        </li>
-                        <li>
-                            <div class="recipeCategory">
-                                <h3>Appetizers</h3>
-                                <i class="fa-solid fa-utensils fa-fw" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, quas cupiditate ratione
-                                esse ipsam est deleniti laboriosam quia necessitatibus.</p>
-                        </li>
-                        <li>
-                            <div class="recipeCategory">
-                                <h3>Desserts</h3>
-                                <i class="fa-solid fa-mug-saucer fa-fw" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, quas cupiditate ratione
-                                esse ipsam est deleniti laboriosam quia necessitatibus.</p>
-                        </li>
-                        <li>
-                            <div class="recipeCategory">
-                                <h3>Drinks</h3>
-                                <i class="fa-solid fa-martini-glass fa-fw" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, quas cupiditate ratione
-                                esse ipsam est deleniti laboriosam quia necessitatibus.</p>
-                        </li>
-                        <li>
-                            <div class="recipeCategory">
-                                <h3>Salads</h3>
-                                <i class="fa-solid fa-leaf fa-fw" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, quas cupiditate ratione
-                                esse ipsam est deleniti laboriosam quia necessitatibus.</p>
-                        </li>
-                        <li>
-                            <div class="recipeCategory">
-                                <h3>Side dishes</h3>
-                                <i class="fa-solid fa-spoon fa-fw" aria-hidden="true"></i>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, quas cupiditate ratione
-                                esse ipsam est deleniti laboriosam quia necessitatibus.</p>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-        </section>
-
-        <section class="restaurants">
-            <div class="wrapper">
-                <figure>
-                    <img src="assets/home-4.jpeg"
-                        alt="Wide-shot of a patio with dining tables arranged throughout, each surrounded by chairs.">
-                    <img class="stamp" src=" assets/home-circle-text.png" aria-hidden="true">
-                </figure>
-                <h2>Our restaurants</h2>
-                <hr>
-                </hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempora distinctio, error molestiae
-                    recusandae eos sapiente dolor eum qui adipisci facilis similique consectetur repudiandae quae neque
-                    nesciunt aperiam earum officiis.</p>
-            </div>
-        </section>
-
-        <section class="gallery">
+      <section class="recipes">
+        <article>
+          <figure>
+            <img
+              src="assets/home-2.jpeg"
+              alt="Fresh lettuce inside a bowl with tiny pieces placed aroud the outside."
+            />
+          </figure>
+          <div class="wrapper">
+            <h2>Most popular recipes</h2>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit aspernatur nemo et at iste aperiam ratione eveniet
+              recusandae, error qui! Eum alias facere modi quo nulla
+              necessitatibus, iure hic iusto.
+            </p>
+            <button>View recipes</button>
+          </div>
+        </article>
+        <article>
+          <figure>
+            <img
+              src="assets/home-3.jpeg"
+              alt="A rolled up steak burrito next to some chopped limes."
+            />
+          </figure>
+          <div class="wrapper">
             <ul>
-                <li><img src="assets/home-5.jpeg"
-                        alt="A mixed bowl of guacamole, tomatoes and nuts, garnished with flower petals."></li>
-                <li><img src="assets/home-6.jpeg"
-                        alt="A crispy chicken burger topped with lettuce, cabbage and surrounded by chives."></li>
-                <li><img src="assets/home-7.jpeg" alt="Close-up of a group of red onions."></li>
-                <li><img src="assets/home-8.jpeg"
-                        alt="A round, cylindrical piece of frosted cake, garnished with leaves adn petals."></li>
-                <li><img src="assets/home-9.jpeg"
-                        alt="A sheet of wax paper holds three blueberry cookies next to a bowl of blueberries."></li>
-                <li><img src="assets/home-10.jpeg" alt="A spoon is placed into a bowl of sour cream and dill."></li>
-            </ul>
-        </section>
-
-        <section class="testimonial">
-            <div class="wrapper">
-                <h2>Hungry clients</h2>
-                <hr>
-                <div class="quote">
-                    <i class="fa-sharp fa-solid fa-quote-left" aria-hidden="true"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, blanditiis molestiae laudantium
-                        harum veniam sapiente eveniet non quo, quibusdam dolorem sed illo fuga soluta fugiat, quisquam
-                        neque odio in. Incidunt.</p>
-                    <i class="fa-sharp fa-solid fa-quote-right" aria-hidden="true"></i>
+              <li>
+                <div class="recipeCategory">
+                  <h3>Vegetarian</h3>
+                  <i class="fa-solid fa-lemon fa-fw" aria-hidden="true"></i>
                 </div>
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-angle-right activeArrow" aria-hidden="true"></i>
-                        <span class="sr-only">Next comment</span>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum, quas cupiditate ratione esse ipsam est deleniti
+                  laboriosam quia necessitatibus.
+                </p>
+              </li>
+              <li>
+                <div class="recipeCategory">
+                  <h3>Appetizers</h3>
+                  <i class="fa-solid fa-utensils fa-fw" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum, quas cupiditate ratione esse ipsam est deleniti
+                  laboriosam quia necessitatibus.
+                </p>
+              </li>
+              <li>
+                <div class="recipeCategory">
+                  <h3>Desserts</h3>
+                  <i
+                    class="fa-solid fa-mug-saucer fa-fw"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum, quas cupiditate ratione esse ipsam est deleniti
+                  laboriosam quia necessitatibus.
+                </p>
+              </li>
+              <li>
+                <div class="recipeCategory">
+                  <h3>Drinks</h3>
+                  <i
+                    class="fa-solid fa-martini-glass fa-fw"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum, quas cupiditate ratione esse ipsam est deleniti
+                  laboriosam quia necessitatibus.
+                </p>
+              </li>
+              <li>
+                <div class="recipeCategory">
+                  <h3>Salads</h3>
+                  <i class="fa-solid fa-leaf fa-fw" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum, quas cupiditate ratione esse ipsam est deleniti
+                  laboriosam quia necessitatibus.
+                </p>
+              </li>
+              <li>
+                <div class="recipeCategory">
+                  <h3>Side dishes</h3>
+                  <i class="fa-solid fa-spoon fa-fw" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum, quas cupiditate ratione esse ipsam est deleniti
+                  laboriosam quia necessitatibus.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="restaurants">
+        <div class="wrapper">
+          <figure>
+            <img
+              src="assets/home-4.jpeg"
+              alt="Wide-shot of a patio with dining tables arranged throughout, each surrounded by chairs."
+            />
+            <img
+              class="stamp"
+              src=" assets/home-circle-text.png"
+              aria-hidden="true"
+            />
+          </figure>
+          <h2>Our restaurants</h2>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            tempora distinctio, error molestiae recusandae eos sapiente dolor
+            eum qui adipisci facilis similique consectetur repudiandae quae
+            neque nesciunt aperiam earum officiis.
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <ul>
+          <li>
+            <img
+              src="assets/home-5.jpeg"
+              alt="A mixed bowl of guacamole, tomatoes and nuts, garnished with flower petals."
+            />
+          </li>
+          <li>
+            <img
+              src="assets/home-6.jpeg"
+              alt="A crispy chicken burger topped with lettuce, cabbage and surrounded by chives."
+            />
+          </li>
+          <li>
+            <img
+              src="assets/home-7.jpeg"
+              alt="Close-up of a group of red onions."
+            />
+          </li>
+          <li>
+            <img
+              src="assets/home-8.jpeg"
+              alt="A round, cylindrical piece of frosted cake, garnished with leaves adn petals."
+            />
+          </li>
+          <li>
+            <img
+              src="assets/home-9.jpeg"
+              alt="A sheet of wax paper holds three blueberry cookies next to a bowl of blueberries."
+            />
+          </li>
+          <li>
+            <img
+              src="assets/home-10.jpeg"
+              alt="A spoon is placed into a bowl of sour cream and dill."
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="testimonial">
+        <div class="wrapper">
+          <h2>Hungry clients</h2>
+          <hr />
+          <div class="quote">
+            <i class="fa-sharp fa-solid fa-quote-left" aria-hidden="true"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              blanditiis molestiae laudantium harum veniam sapiente eveniet non
+              quo, quibusdam dolorem sed illo fuga soluta fugiat, quisquam neque
+              odio in. Incidunt.
+            </p>
+            <i class="fa-sharp fa-solid fa-quote-right" aria-hidden="true"></i>
+          </div>
+          <ul>
+            <li>
+              <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-angle-right activeArrow"
+                aria-hidden="true"
+              ></i>
+              <span class="sr-only">Next comment</span>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="wrapper footerContent">
-            <ul>
-                <h2>Delicious</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem excepturi quo similique
-                    accusantium vitae ab tempore soluta at.</p>
-                <li>
-                    <p>A delicious restaurant</p>
-                    <p>Toronto, Ontario</p>
-                </li>
-                <li>
-                    yum@food.com
-                </li>
-                <li>
-                    +1 234 567 8910
-                </li>
-            </ul>
-            <ul>
-                <h3>Recent Posts</h3>
-                <li>Beetroot water spinach okra water</li>
-                <li>Chestnut ricebean pea catsear corgette</li>
-                <li>Summer purslane spinach arugula pea</li>
-                <li>Tatsoi abuergine spring onion bush</li>
-                <li>Tomato kale radicchio turnip chicory</li>
-                <li>Salsify pea sprouts fava bean</li>
-            </ul>
-            <div class="subscribe">
-                <h3>Subscribe now</h3>
-                <p>Get all of our newest recipes immediately in your inbox!</p>
-                <form action="">
-                    <label for="foooterEmail" class="sr-only">Enter your email</label>
-                    <input id="footerEmail" type="email" placeholder="Enter your email">
-                    <button type="button">
-                        <i class="fa-sharp fa-solid fa-right-long" aria-hidden="true"></i>
-                        <span class="sr-only">Submit</span>
-                    </button>
-                </form>
-                <ul>
-                    <li>
-                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </li>
-                    <li>
-                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </li>
-                    <li>
-                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </li>
-                </ul>
-            </div>
+      <div class="wrapper footerContent">
+        <ul>
+          <h2>Delicious</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            excepturi quo similique accusantium vitae ab tempore soluta at.
+          </p>
+          <li>
+            <p>A delicious restaurant</p>
+            <p>Toronto, Ontario</p>
+          </li>
+          <li>yum@food.com</li>
+          <li>+1 234 567 8910</li>
+        </ul>
+        <ul>
+          <h3>Recent Posts</h3>
+          <li>Beetroot water spinach okra water</li>
+          <li>Chestnut ricebean pea catsear corgette</li>
+          <li>Summer purslane spinach arugula pea</li>
+          <li>Tatsoi abuergine spring onion bush</li>
+          <li>Tomato kale radicchio turnip chicory</li>
+          <li>Salsify pea sprouts fava bean</li>
+        </ul>
+        <div class="subscribe">
+          <h3>Subscribe now</h3>
+          <p>Get all of our newest recipes immediately in your inbox!</p>
+          <form action="">
+            <label for="foooterEmail" class="sr-only">Enter your email</label>
+            <input
+              id="footerEmail"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <button type="button">
+              <i class="fa-sharp fa-solid fa-right-long" aria-hidden="true"></i>
+              <span class="sr-only">Submit</span>
+            </button>
+          </form>
+          <ul>
+            <li>
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+            </li>
+            <li>
+              <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+              <span class="sr-only">Twitter</span>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              <span class="sr-only">Instagram</span>
+            </li>
+          </ul>
         </div>
-        <div class="copyright">
-            <div class="wrapper">
-                <p>
-                    Copyrights &#169; 2015 by <span>Polar.</span> All Rights Reserved.
-                </p>
-            </div>
+      </div>
+      <div class="copyright">
+        <div class="wrapper">
+          <p>
+            Copyrights &#169; 2015 by <span>Polar.</span> All Rights Reserved.
+          </p>
         </div>
+      </div>
     </footer>
-    <script src="https://kit.fontawesome.com/e4f1610b04.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/e4f1610b04.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/main.ts"></script>
+  </body>
 </html>

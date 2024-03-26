@@ -1,6 +1,6 @@
 To-do
 
-Aria-label instead of
+Aria-label instead of sr-only
 
 Write up quick presentation following format
 
